@@ -14,7 +14,7 @@ deploy:
   context: bibin-ecloudcontrol/DEV
   #type:  statefulset
   #type:  sonarqube8
-  type: stateless
+  #type: stateless
   replicas: 1
   port:
   - 9000
