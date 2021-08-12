@@ -36,4 +36,4 @@ properties:
     vault: SONAR_JDBC_PASSWORD
   ENABLE_OIDC: TRUE  
   CREATE_DEFAULT_USERS: TRUE
-  revision : 34
+  revision : 35
