@@ -12,9 +12,6 @@ build:
       
 deploy:
   context: bibin-ecloudcontrol/DEV
-  #type:  statefulset
-  #type:  sonarqube8
-  #type: stateless
   replicas: 1
   port:
   - 9000
@@ -37,7 +34,7 @@ properties:
   ENABLE_OIDC: TRUE  
   CREATE_DEFAULT_USERS: TRUE
   GF_AUTH_GENERIC_OAUTH_ENABLED: true
-  GF_AUTH_GENERIC_OAUTH_NAME: AppZ  
+  GF_AUTH_GENERIC_OAUTH_NAME: jcarver
   GF_AUTH_GENERIC_OAUTH_CLIENT_ID: sonarqube
   GF_AUTH_GENERIC_OAUTH_CLIENT_SECRET: secretex
   GF_AUTH_GENERIC_OAUTH_SCOPES: openid profile email  
