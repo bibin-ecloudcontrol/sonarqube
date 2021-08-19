@@ -32,10 +32,5 @@ properties:
   SONAR_JDBC_PASSWORD: 
     vault: SONAR_JDBC_PASSWORD
   ENABLE_OIDC: TRUE  
-  CREATE_DEFAULT_USERS: TRUE
-  GF_AUTH_GENERIC_OAUTH_ENABLED: true
-  GF_AUTH_GENERIC_OAUTH_NAME: jcarver
-  GF_AUTH_GENERIC_OAUTH_CLIENT_ID: sonarqube
-  GF_AUTH_GENERIC_OAUTH_CLIENT_SECRET: secretex
-  GF_SERVER_ROOT_URL: https://bibin-ecloudcontrol-dev-sonarqube-8-2.32d430c5.lowtouch.cloud
+
   revision : 39
