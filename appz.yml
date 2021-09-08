@@ -20,7 +20,6 @@ monitor:
   notify: bkoshy@ecloudcontrol.com      
     
 properties:
-  sonar.forceAuthentication: true
   SONAR_ADMIN_USERNAME: ecloudsys
   SONAR_ADMIN_PASSWORD:
     vault: SONAR_ADMIN_PASSWORD
