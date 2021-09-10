@@ -33,4 +33,4 @@ properties:
     vault: SONAR_JDBC_PASSWORD
   ENABLE_OIDC: TRUE  
 
-  revision : 53
+  revision : 54
