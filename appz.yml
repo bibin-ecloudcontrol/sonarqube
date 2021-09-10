@@ -32,5 +32,6 @@ properties:
   SONAR_JDBC_PASSWORD: 
     vault: SONAR_JDBC_PASSWORD
   ENABLE_OIDC: TRUE  
+  CREATE_DEFAULT_USERS: TRUE
 
   revision : 59
