@@ -34,4 +34,4 @@ properties:
   ENABLE_OIDC: TRUE  
   CREATE_DEFAULT_USERS: TRUE
 
-  revision : 60
+  revision : 61
