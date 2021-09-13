@@ -33,5 +33,7 @@ properties:
     vault: SONAR_JDBC_PASSWORD
   ENABLE_OIDC: TRUE  
   CREATE_DEFAULT_USERS: TRUE
+  OIDC_EXTRA_USER_GROUPS: 'sonar-users'
+  OIDC_EXTRA_ADMIN_GROUPS: 'sonar-administrators'
 
   revision : 62
