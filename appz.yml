@@ -10,7 +10,7 @@ build:
   output_files: output/*.zip
   image_template: sonarqube_azl-8.2
   args: 
-    MAILQUEUE_LOC: /appz/cache/mail 
+    MAILQUEUE_LOC: /tmp/appz
     
       
 deploy:
