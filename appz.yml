@@ -9,9 +9,7 @@ build:
   build_file: none
   output_files: output/*.zip
   image_template: sonarqube_azl-8.2
-  args: 
-    MAILQUEUE_LOC: /tmp/mail
-    
+  
       
 deploy:
   context: bibin-ecloudcontrol/DEV
@@ -26,7 +24,7 @@ volumes:
     name: data
     size: 50Gi
   - claim: mailqueue-data
-    mount: /appz/cache/mail
+    mount: /var/spool/clientmqueue
     name: mailqueuedata
     size: 50Gi
     
